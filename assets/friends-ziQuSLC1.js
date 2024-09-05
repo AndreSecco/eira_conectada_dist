@@ -1,0 +1,1 @@
+import{a2 as s,a3 as r}from"./index-CxfvrG0R.js";const i=s({id:"Frineds",state:()=>({friends:[]}),getters:{},actions:{async fetchFrineds(){try{const e=await r.get("/api/friends/list");this.friends=e.data.friends}catch(e){alert(e),console.log(e)}}}});export{i as u};
