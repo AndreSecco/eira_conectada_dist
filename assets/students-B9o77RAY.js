@@ -1,0 +1,1 @@
+import{a0 as s,a1 as e}from"./index-Dqz81vVM.js";const o=s({id:"Students",state:()=>({students:[]}),getters:{},actions:{async fetchStudents(){try{const t=await e.get("/api/contacts");this.students=t.data.students}catch(t){alert(t),console.log(t)}}}});export{o as u};
