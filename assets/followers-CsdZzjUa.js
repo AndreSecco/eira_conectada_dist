@@ -1,1 +1,0 @@
-import{a3 as e,a4 as s}from"./index-BPobQcf8.js";const t=e({id:"followers",state:()=>({followers:[]}),getters:{},actions:{async fetchFollowers(){try{const o=await s.get("/api/followers/list");this.followers=o.data.followers}catch(o){alert(o),console.log(o)}}}});export{t as u};
