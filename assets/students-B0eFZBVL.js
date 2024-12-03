@@ -1,0 +1,1 @@
+import{a7 as s,a8 as e}from"./index-BWNHnGrY.js";const o=s({id:"Students",state:()=>({students:[]}),getters:{},actions:{async fetchStudents(){try{const t=await e.get("/api/contacts");this.students=t.data.students}catch(t){alert(t),console.log(t)}}}});export{o as u};

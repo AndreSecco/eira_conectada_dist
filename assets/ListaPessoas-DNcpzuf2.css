@@ -1,0 +1,1 @@
+div:where(.swal2-container) button:where(.swal2-styled){color:#fff!important}@media screen and (max-width: 920px){.divPesquisa{display:inline-flex;flex-direction:column}}.divPesquisa{display:flex}
