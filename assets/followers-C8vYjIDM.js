@@ -1,1 +1,0 @@
-import{a7 as e,a8 as s}from"./index-K9Cw3qAM.js";const t=e({id:"followers",state:()=>({followers:[]}),getters:{},actions:{async fetchFollowers(){try{const o=await s.get("/api/followers/list");this.followers=o.data.followers}catch(o){alert(o),console.log(o)}}}});export{t as u};
